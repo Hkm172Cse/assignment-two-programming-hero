@@ -37,6 +37,44 @@
             width:50%;
         
         }
+        /* word-cup responsive*/
+        .world-cup{
+            display: flex;
+            flex-direction: column;
+        }
+        .match-menu ul{
+            display: flex;
+            flex-direction: column;
+            padding:0;
+            margin:0;
+            background:#fff;
+            justify-content: space-between;
+            gap:20px;
+        }
+        .match-menu ul li{
+            list-style-type: none;
+            text-align: center;
+            padding:20px 30px;
+            background:#fff;
+            border:1px solid rgba(85, 85, 85, 0.274);
+            margin:0px auto;
+            width:fit-content;
+            border-radius: 8px;
+        }
+
+        .match-list{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: space-between;
+            gap:15px;
+        }
+
+        footer ul li{
+            list-style-type: none;
+            display:block;
+            margin:20px;
+            padding:10px;
+        }
     
   }
   /* Tablet responsive Style*/
@@ -49,7 +87,10 @@
         display: grid;
         grid-template-columns: 40% 60%;
     }
-
+    .header-text h1{
+        font-size:30px;
+        padding-top:20px;
+    }
     /*=========world cup responsive at tablet screen=========*/
     .world-cup{
         display: flex;
@@ -79,5 +120,25 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         gap:15px;
+    }
+    .view-all{
+        display: block;
+        width:150px;
+        margin: auto;
+        text-align: center;
+        padding:10px 12px;
+        background:  rgba(145, 16, 16, 0.925);
+        border:none;
+        color:#fff;
+        font-size:18px;
+        text-transform: capitalize;
+        border-radius: 8px;
+        margin-top:40px;
+    }
+    footer ul li{
+        list-style-type: none;
+        display:inline-block;
+        margin:20px;
+        padding:10px;
     }
   }
