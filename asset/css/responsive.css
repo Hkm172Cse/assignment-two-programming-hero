@@ -1,0 +1,52 @@
+/*=========Mobile Responsive Style ===========*/
+@media screen and (max-width: 576px) {
+        .header-content{
+            background:green;
+            color:#fff;
+            border-radius: 10px;
+            height: 90vh;
+            display: flex;
+           flex-wrap: wrap;
+           text-align: center;
+        }
+        .live-btn{
+            margin-left:0;
+        }
+        .header-text h1, 
+        .header-text p{
+            margin-bottom: 20px;
+            margin-left:0px;
+        }
+        .header-text h1{
+            font-size:30px;
+            padding:30px 15px;
+        }
+        .header-text p{
+            font-size:14px;
+            padding:0px 15px;
+        
+        }
+
+        .header-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .header-img > img{
+            width:50%;
+        
+        }
+    
+  }
+  /* Tablet responsive Style*/
+  @media screen and (min-width: 576px) and (max-width:922px){
+    .header-content{
+        background:rgba(15, 192, 236, 0.774);
+        color:#fff;
+        border-radius: 20px;
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+  }
