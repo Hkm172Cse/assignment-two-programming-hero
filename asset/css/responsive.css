@@ -49,4 +49,35 @@
         display: grid;
         grid-template-columns: 40% 60%;
     }
+
+    /*=========world cup responsive at tablet screen=========*/
+    .world-cup{
+        display: flex;
+        flex-direction: column;
+    }
+    .match-menu ul{
+        display: flex;
+        flex-direction: row;
+        padding:0;
+        margin:0;
+        background:#fff;
+        justify-content: space-between;
+        gap:20px;
+    }
+    .match-menu ul li{
+        list-style-type: none;
+        text-align: center;
+        padding:20px 30px;
+        background:#fff;
+        border:1px solid rgba(85, 85, 85, 0.274);
+        margin:0px 0px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .match-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        gap:15px;
+    }
   }

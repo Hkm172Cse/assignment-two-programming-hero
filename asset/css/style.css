@@ -9,6 +9,7 @@ body{
 .container{
     width: 85%;
     margin:auto;
+    overflow: hidden;
 }
 
 /* ==============HEADER-SECTION-STYLE==========*/
@@ -63,5 +64,86 @@ header{
     width:78%;
     height: 100%;
 
+}
+/* ===============World Cup Section Style=============*/
+
+.world-cup{
+    display: grid;
+    grid-template-columns: 250px auto;
+    gap: 10px;
+}
+.match-menu ul{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    border-radius: 10px;
+    padding:10px 0px;
+}
+.match-menu ul li{
+    list-style-type: none;
+    text-align: center;
+    padding:10px 20px;
+    background:#fff;
+    margin:10px 20px;  
+    border-radius: 8px;
+}
+.match-menu ul li:last-child{
+    background:rgb(179, 9, 9);
+}
+.match-menu ul li:last-child a{
+    color:#fff;
+}
+.match-menu ul li:hover{
+    background:rgb(179, 9, 9);
+}
+.match-menu ul li:hover a{
+    color:#fff;
+}
+.match-menu ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.match-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap:15px;
+}
+.card{
+    border:1px solid rgba(85, 85, 85, 0.39);
+    border-radius: 10px;
+}
+.match-list .card img{
+    width:100%;
+}
+.card button{
+    padding:5px 12px;
+    color:#555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left:20px;
+}
+.card-img{
+    padding-bottom: 10px;
+}
+.card i{
+    font-size:20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.card i:nth-child(2){
+    padding-left:40px;
+}
+.card i:first-child{
+    margin-left:20px;
+}
+.card p{
+    font-size:16px;
+    font-weight: bold;
+    padding:10px 0px;
+    margin-left: 20px;
 }
 
