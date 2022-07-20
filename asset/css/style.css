@@ -59,12 +59,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .header-img > img{
     width:78%;
     height: 100%;
 
 }
+
+
+
 /* ===============World Cup Section Style=============*/
 
 .world-cup{
@@ -118,6 +122,7 @@ header{
 }
 .match-list .card img{
     width:100%;
+    border-radius: 8px 8px 0px 0px;
 }
 .card button{
     padding:5px 12px;
